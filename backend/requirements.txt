@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic-settings
+sqlalchemy
+argon2-cffi
+numpy
+scipy
+rapidfuzz
+httpx
+pytest
+hypothesis
+respx
+python-multipart
+pillow
+apscheduler

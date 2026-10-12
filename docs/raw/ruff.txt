@@ -1,0 +1,15 @@
+F401 [*] `re` imported but unused
+ --> app/screenshots.py:1:21
+  |
+1 | import hashlib, io, re, secrets
+  |                     ^^
+2 | from decimal import Decimal
+3 | from pathlib import Path
+  |
+help: Remove unused import: `re`
+  |
+  - import hashlib, io, re, secrets
+1 + import hashlib, io, secrets
+2 | from decimal import Decimal
+  |
+
